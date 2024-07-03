@@ -1,0 +1,172 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.main{
+    background-color: slategrey;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color: rgb(30, 46, 61);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 0px 15px;
+    color: white;
+}
+
+
+.out{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+span{
+    font-weight: bold;
+    font-size: 25px;
+    color: aqua;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    /* width: 200px; */
+}
+
+main{
+    min-height: 300px;
+    background-color: rgb(30, 46, 61);
+    margin-top: 1px;
+    border-bottom-right-radius: 92px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 12px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.div{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:10px;
+    width: 400px;
+}
+
+.cont{
+    overflow: hidden;
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+h4{
+    padding: 20px 0px;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    gap:12px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12px;
+    flex-wrap: wrap;
+    color: ivory;
+}
+
+h5{
+    font-size: large;
+}
+
+.w{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap:12px
+}
+
+.sect{
+    margin-top: 30px;
+    background-color: rgb(30, 46, 61);
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+.sect2{
+    margin-top: 30px;
+    background-color: rgb(30, 46, 61);
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+
+h3{
+    margin-bottom: 5px;
+}
+
+.btn{
+    width: 200px;
+    padding: 10px 0px;
+    border: none;
+    color: white;
+    background-color: indigo;
+    border-radius: 10px;
+}
+
+.ig{
+    width: 450px;
+    /* height: 250px; */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(26, 36, 45);
+    color: white;
+    gap: 20px;
+    align-items: center; 
+}
+
+.footer{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    gap:15px
+}
+
